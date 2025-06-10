@@ -12,11 +12,10 @@ const JoinForm = () => {
         }
     };
 
-
     return (
         <div className="flex items-center justify-center w-screen h-screen bg-white p-10">
             <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-                <h1 className="text-2xl font-bold text-gray-800 mb-4">Welcome to Talkify</h1>
+                <h1 className="text-2xl font-bold text-gray-800 mb-4">Welcome to weChat</h1>
                 <p className="text-gray-600 mb-8">A simple chat room to connect with amazing people...</p>
                 <p className="text-gray-600 font-bold mb-4">Enter your name and click Start</p>
 
