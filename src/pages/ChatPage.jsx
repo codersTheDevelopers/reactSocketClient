@@ -13,7 +13,7 @@ const ChatPage = () => {
     const [message, setMessage] = useState("");
 
     useEffect(() => {
-        socketRef.current = io("http://192.168.100.4:3000", {
+        socketRef.current = io("http://162.220.11.137:3000", {
             transports: ["websocket"],
         });
 
